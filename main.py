@@ -7,6 +7,7 @@ Karpenko Nikolay
 '''
 
 from turtle import *
+t.screen.setup(900, 800)
 
 # Egor
 
