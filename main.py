@@ -22,8 +22,7 @@ def circle(size):
         fd(size / 10)
         rt(1)
 
-circle(size)
-turtle.done()
+done()
 
 
 
