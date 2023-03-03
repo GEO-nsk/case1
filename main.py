@@ -9,14 +9,14 @@ Karpenko Nikolay
 from turtle import *
 speed(0)  # Drawing speed (0 - the fastest)
 
-# lines for dividing the drawing space into 3 parts
+# function to draw a line
 line_lenght = 900
 def line(line_lenght):
     pd()
     fd(line_lenght)
     pu()
 
-
+# lines for dividing the drawing space into 3 parts
 pu()
 lt(90)
 fd(450)
