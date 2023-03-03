@@ -40,6 +40,16 @@ rt(90)
 
 # Evgeny
 
+# function to draw a rectangle
+def rectangle(w, h):
+    for i in range(2):
+        fd(w)
+        lt(90)
+        fd(h)
+        lt(90)
+
 
 # Nikolay
 
+
+done()
