@@ -45,7 +45,8 @@ def triangle_angle(a, b, c):
 
 
 def draw_triangle(a, b, c, border_clr, fill_clr):
-    """Draw a triangle with sides of lengths a, b, c."""
+    """Draw a triangle with sides of lengths a, b, c
+    border_clr - color of a border; fill_clr - color of fill."""
     corner_1 = triangle_angle(b, c, a)
     corner_2 = triangle_angle(c, a, b)
     color(border_clr, fill_clr)
