@@ -26,7 +26,7 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     rt(90)
     fd(length)
 
-draw_rectangle(20,50,0)
+draw_rectangle(20,50,0,0,0)
 
 # Evgeny
 
@@ -48,4 +48,3 @@ def triangle(side, base, angle, corner, border_color, fill_color):
 
 
 done()
-````
