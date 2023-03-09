@@ -13,7 +13,10 @@ speed(0)
 
 
 # Egor
-
+# function to draw a circle
+# radius - radius
+# extent - the part of the circle to draw
+# steps - number of stepds
 
 # Evgeny
 
