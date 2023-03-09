@@ -17,10 +17,20 @@ speed(0)
 
 
 # Egor
-# function to draw a circle
-# radius - radius
-# extent - the part of the circle to draw
-# steps - number of stepds
+# function to a rectangle
+#
+def draw_rectangle(width, length, angle, border_color, fill_color):
+    pd()
+    rt(angle)
+    fd(width)
+    rt(90)
+    fd(length)
+    rt(90)
+    fd(width)
+    rt(90)
+    fd(length)
+
+draw_rectangle(20,50,0,0,0)
 
 # Evgeny
 def triangle_exist(a, b, c):
