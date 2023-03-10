@@ -67,6 +67,7 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     forward(b)
     right(360 - (corner_1 + corner_2))
     end_fill()
+    goto(0, 0)
 
 
 # Nikolay
