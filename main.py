@@ -25,6 +25,7 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     pd()
     begin_fill()
     color(border_color, fill_color)
+    rt(270)
     rt(angle)
     fd(width)
     rt(90)
@@ -34,8 +35,9 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     rt(90)
     fd(length)
     end_fill()
+    rt(90)
+    goto(0,0)
 
-draw_rectangle(50,10,90,'blue1','brown')
 
 # Evgeny
 def triangle_exist(a, b, c):
@@ -72,5 +74,19 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
 # Nikolay
 
 
+'''
+Start of drawing
+'''
+
+# Egor
+
+# Square1
+draw_rectangle(75,75,0,'blue1','brown')
+# Square 2
+draw_rectangle(100,100,0,'blue1','brown')
+# Square 3
+goto(0,100)
+draw_rectangle(100,100,0,'blue1','brown')
+goto(0,0)
 done()
 
