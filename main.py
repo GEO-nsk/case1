@@ -59,15 +59,19 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     corner_2 = triangle_angle(c, a, b)
     color(border_clr, fill_clr)
     assert(triangle_exist(a, b, c))
+    pd()
     begin_fill()
+    print("The first vertex: ", pos())
     forward(c)
     left(180 - corner_1)
+    print("The second vertex: ", pos())
     forward(a)
     left(180 - corner_2)
+    print("The third vertex: ", pos())
     forward(b)
     right(360 - (corner_1 + corner_2))
     end_fill()
-    goto(0, 0)
+    pu()
 
 
 # Nikolay
@@ -86,7 +90,7 @@ Start of drawing
 
 # Egor
 
-# Square1
+# # Square1
 draw_rectangle(75,75,0,'blue1','brown')
 # Square 2
 draw_rectangle(100,100,0,'blue1','brown')
