@@ -21,6 +21,7 @@ Functions for drawing shapes.
 """
 
 # Egor
+rt(270)
 def draw_rectangle(width, length, angle, border_color, fill_color):
     pd()
     begin_fill()
