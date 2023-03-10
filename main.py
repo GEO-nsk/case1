@@ -59,34 +59,46 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     color(border_clr, fill_clr)
     assert(triangle_exist(a, b, c))
     begin_fill()
-    forward(c)
-    left(180 - corner_1)
-    forward(a)
-    left(180 - corner_2)
-    forward(b)
-    right(360 - (corner_1 + corner_2))
+    fd(c)
+    lt(180 - corner_1)
+    fd(a)
+    lt(180 - corner_2)
+    fd(b)
+    rt(360 - (corner_1 + corner_2))
     end_fill()
-
-
-# draw_triangle(400, 350, 200, 'black', 'red')
+    goto(0, 0)
 
 
 # Nikolay
 
 
-'''
+"""
+Start position of turtle.
+"""
+
+goto(0, 0)
+lt(90)
+
+
+"""
 Start of drawing
-'''
+"""
 
 # Egor
-
 # Square1
-draw_rectangle(75,75,0,'blue1','brown')
-# Square 2
-draw_rectangle(100,100,0,'blue1','brown')
-# Square 3
-goto(0,100)
-draw_rectangle(100,100,0,'blue1','brown')
+# draw_rectangle(75,75,0,'blue1','brown')
+# # Square 2
+# draw_rectangle(100,100,0,'blue1','brown')
+# # Square 3
+# goto(0,100)
+# draw_rectangle(100,100,0,'blue1','brown')
 goto(0,0)
-done()
 
+
+# Evgeny
+draw_triangle(100, sqrt(5000), 50, 'gray0', 'red')
+
+# Nikolay
+
+
+done()
