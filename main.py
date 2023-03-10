@@ -17,10 +17,10 @@ speed(0)
 
 
 # Egor
-# function to a rectangle
-#
 def draw_rectangle(width, length, angle, border_color, fill_color):
     pd()
+    begin_fill()
+    color(border_color, fill_color)
     rt(angle)
     fd(width)
     rt(90)
@@ -29,8 +29,9 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     fd(width)
     rt(90)
     fd(length)
+    end_fill()
 
-draw_rectangle(20,50,0,0,0)
+draw_rectangle(50,10,90,'blue1','brown')
 
 # Evgeny
 def triangle_exist(a, b, c):
