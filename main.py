@@ -52,7 +52,8 @@ def triangle_angle(a, b, c):
 
 
 def draw_triangle(a, b, c, border_clr, fill_clr):
-    """Draw a triangle with sides of lengths a, b, c
+    """Draw a triangle with sides of lengths a, b, c.
+    For right triangle: a - leg, b - hypotenuse, c - base.
     border_clr - color of a border; fill_clr - color of fill."""
     corner_1 = triangle_angle(b, c, a)
     corner_2 = triangle_angle(c, a, b)
@@ -68,15 +69,19 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     end_fill()
 
 
-# draw_triangle(400, 350, 200, 'black', 'red')
-
-
 # Nikolay
 
 
-'''
+"""
+Start position of turtle
+"""
+
+goto(0, 0)
+
+
+"""
 Start of drawing
-'''
+"""
 
 # Egor
 
@@ -88,5 +93,13 @@ draw_rectangle(100,100,0,'blue1','brown')
 goto(0,100)
 draw_rectangle(100,100,0,'blue1','brown')
 goto(0,0)
+
+
+# Evgeny
+
+
+# Nikolay
+
+
 done()
 
