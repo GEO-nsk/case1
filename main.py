@@ -66,7 +66,7 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     end_fill()
 
 
-draw_triangle(400, 350, 200, 'black', 'red')
+# draw_triangle(400, 350, 200, 'black', 'red')
 
 
 # Nikolay
