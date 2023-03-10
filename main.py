@@ -1,5 +1,5 @@
 """
-Title
+Title: Hyper Truck
 Group:
 Gagol Egor
 Tarlo Evgeny
