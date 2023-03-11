@@ -151,16 +151,6 @@ Start of drawing
 
 
 # Evgeny
-goto(-350, -65)
-right(180)
-forward(500)
-pd()
-left(180)
-forward(900)
-rt(180)
-pu()
-
-
 # a - leg, b - hypotenuse, c - base
 
 """Car body."""
@@ -189,20 +179,17 @@ right(180)
 """Right wheel."""
 goto(-350, -65)
 draw_circle(30, 'black', 'gray50')
-
 goto(-350, -58)
 draw_circle(23, 'black', 'gray80')
-
 goto(-350, -41)
 draw_circle(6, 'black', 'BlueViolet')
+
 
 """Left wheel."""
 goto(-580, -65)
 draw_circle(30, 'black', 'gray50')
-
 goto(-580, -58)
 draw_circle(23, 'black', 'gray80')
-
 goto(-580, -41)
 draw_circle(6, 'black', 'BlueViolet')
 
