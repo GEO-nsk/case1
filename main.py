@@ -100,9 +100,17 @@ draw_rectangle(100,100,0,'blue1','brown')
 # Square 3
 goto(-100,100)
 draw_rectangle(100,100,0,'blue1','brown')
-goto(-150,100)
+goto(-170,100)
 rt(90)
-draw_triangle(100, sqrt(100**2 + 50**2), 50,'blue1','brown')
+draw_triangle(100, sqrt(100**2 + 70**2), 70,'blue1','brown')
+lt(90)
+goto(-170,0)
+draw_rectangle(100,70,0,'blue1','brown')
+goto(20,75)
+draw_rectangle(100,200,0,'blue1','brown')
+goto(0,-30)
+draw_rectangle(30,250,0,'grey1','grey1')
+goto(50,0)
 
 
 # Evgeny
