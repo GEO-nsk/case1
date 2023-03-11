@@ -55,14 +55,14 @@ def triangle_exist(a, b, c):
 def triangle_angle(a, b, c):
     """
 
-    Return the angle (in degrees) opposite the side of length a in the
-    triangle with sides a, b, c.
+    Return the angle (in degrees) opposite the side of length 'a' in
+    the triangle with sides a, b, c.
     """
 
     return degrees(acos((b**2 + c**2 - a**2) / (2.0 * b * c)))
 
 def draw_triangle(a, b, c, border_clr, fill_clr):
-    """Draw a triangle
+    """
 
     Draw a triangle with sides of lengths a, b, c.
     For right triangle: a - leg, b - hypotenuse, c - base.
