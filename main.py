@@ -171,6 +171,7 @@ draw_circle(23, 'black', 'gray80')
 goto(-350, -41)
 draw_circle(6, 'black', 'BlueViolet')
 
+goto()
 
 # Nikolay
 
