@@ -100,7 +100,9 @@ draw_rectangle(100,100,0,'blue1','brown')
 goto(-100,100)
 draw_rectangle(100,100,0,'blue1','brown')
 goto(-150,100)
-draw_triangle(50,100,sqrt(12500),'blue1','brown')
+rt((1/sqrt(5)))
+rt(90)
+draw_triangle(100, sqrt(100**2 + 50**2), 50,'blue1','brown')
 
 
 # Evgeny
