@@ -55,11 +55,7 @@ def triangle_exist(a, b, c):
     return a + b > c and b + c > a and c + a > b
 
 def triangle_angle(a, b, c):
-    """
-
-    Return the angle (in degrees) opposite the side of length 'a' in
-    the triangle with sides a, b, c.
-    """
+    """Return the angle (in degrees) opposite the side of length 'a'."""
 
     return degrees(acos((b**2 + c**2 - a**2) / (2.0 * b * c)))
 
