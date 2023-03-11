@@ -25,7 +25,6 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     pd()
     begin_fill()
     color(border_color, fill_color)
-    rt(270)
     rt(angle)
     fd(width)
     rt(90)
@@ -36,6 +35,7 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     fd(length)
     end_fill()
     rt(90)
+    pu()
     goto(0,0)
 
 
@@ -90,18 +90,22 @@ Start of drawing
 
 # Egor
 
+rt(270)
 # # Square1
 draw_rectangle(75,75,0,'blue1','brown')
 # Square 2
+goto(-100,0)
 draw_rectangle(100,100,0,'blue1','brown')
 # Square 3
-goto(0,100)
+goto(-100,100)
 draw_rectangle(100,100,0,'blue1','brown')
-goto(0,0)
+goto(-150,100)
+rt((1/sqrt(5)))
+draw_triangle(50,100,sqrt(12500),'blue1','brown')
 
 
 # Evgeny
-#abv
+
 
 # Nikolay
 
