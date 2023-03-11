@@ -152,53 +152,70 @@ draw_circle(10,'Black','Black')
 
 # Evgeny
 
-# a - leg, b - hypotenuse, c - base
-right(180)
 """Car body."""
 goto(-330, -50)
 draw_rectangle(260, 10, 0, 'black', 'black')
-
 goto(-345, -40)
 draw_rectangle(40, 40, 0, 'black', 'BlueViolet')
-
 goto(-290, 0)
 draw_triangle(50, sqrt(50**2 + 55**2), 55, 'black', 'BlueViolet')
-
 goto(-290, 0)
 draw_rectangle(95, 25, 0, 'black', 'BlueViolet')
+goto(-385, -40)
+draw_rectangle(75, 65, 0, 'black', 'BlueViolet')
+goto(-460, -40)
+draw_rectangle(85, 65, 0, 'black', 'BlueViolet')
+goto(-545, -40)
+draw_rectangle(40, 65, 0, 'black', 'BlueViolet')
+goto(-585, -50)
+rt(90)
+draw_triangle(65, sqrt(65**2 + 30**2), 30, 'black', 'BlueViolet')
+goto(-585, -20)
+lt(90)
+draw_rectangle(65, 45, 0, 'black', 'BlueViolet')
 
-goto(-290, 7.5)
-draw_rectangle(15, 10, 0, 'black', 'red')
-
+"""Windows."""
 goto(-385, 80)
 lt(90)
 draw_triangle(30, sqrt(30**2 + 55**2), 55, 'black', 'CadetBlue1')
 rt(90)
+goto(-385, 25)
+draw_rectangle(75, 55, 0, 'black', 'CadetBlue1')
+goto(-460, 25)
+draw_rectangle(85, 55, 0, 'black', 'CadetBlue1')
+goto(-585, 25)
+rt(180)
+draw_triangle(55, sqrt(55**2 + 40**2), 40, 'black', 'CadetBlue1')
+lt(180)
 
-goto(-385, -40)
-draw_rectangle(75, 65, 0, 'black', 'BlueViolet')
+"""Roof of car."""
+goto(-385, 77)
+draw_rectangle(160, 3, 0, 'black', 'BlueViolet')
 
-goto(-460, -40)
-draw_rectangle(75, 65, 0, 'black', 'BlueViolet')
+"""Headlight."""
+goto(-640, 20)
+draw_circle(10, 'black', 'gold')
 
+"""Taillight."""
+goto(-290, 7.5)
+draw_rectangle(15, 10, 0, 'black', 'red')
 
-right(180)
 """Right wheel."""
+right(180)
 goto(-350, -65)
-draw_circle(32, 'black', 'gray50')
-goto(-350, -58)
+draw_circle(33, 'black', 'gray50')
+goto(-350, -57)
 draw_circle(25, 'black', 'gray80')
-goto(-350, -41)
-draw_circle(8, 'black', 'BlueViolet')
-
+goto(-350, -38)
+draw_circle(6, 'black', 'black')
 
 """Left wheel."""
 goto(-580, -65)
-draw_circle(32, 'black', 'gray50')
-goto(-580, -58)
+draw_circle(33, 'black', 'gray50')
+goto(-580, -57)
 draw_circle(25, 'black', 'gray80')
-goto(-580, -41)
-draw_circle(8, 'black', 'BlueViolet')
+goto(-580, -38)
+draw_circle(6, 'black', 'black')
 
 
 # Nikolay
