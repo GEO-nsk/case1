@@ -1,19 +1,21 @@
 """
-Title: Hyper Truck
+Title: Hyper Truck and not only
 Group:
 Gagol Egor
-Tarlo Evgeny
+Tarlo Evgeny - 60
 Karpenko Nikolay
 """
 
 from turtle import *
 from math import *
 
+
 screen = Screen()
 screen.setup(width=1.0, height=1.0)
-"""Full-screen mode."""
+# Full-screen mode
+
 speed(0)
-"""Drawing speed (0 - the fastest)."""
+# Drawing speed (0 - the fastest).
 
 
 """
