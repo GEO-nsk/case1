@@ -72,6 +72,7 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
     right(360 - (corner_1 + corner_2))
     end_fill()
     pu()
+    goto(0, 0)
 
 
 # Nikolay
@@ -100,7 +101,6 @@ draw_rectangle(100,100,0,'blue1','brown')
 goto(-100,100)
 draw_rectangle(100,100,0,'blue1','brown')
 goto(-150,100)
-rt((1/sqrt(5)))
 rt(90)
 draw_triangle(100, sqrt(100**2 + 50**2), 50,'blue1','brown')
 
