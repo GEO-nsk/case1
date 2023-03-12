@@ -12,7 +12,7 @@ from math import *
 
 screen = Screen()
 screen.setup(width=1.0, height=1.0)
-# Full-screen mode
+# Full-screen mode.
 
 speed(0)
 # Drawing speed (0 - the fastest).
@@ -51,20 +51,17 @@ def draw_circle(radius, border_color, fill_color):
 
 # Evgeny
 def triangle_exist(a, b, c):
-    """Return True if a triangle with sides a, b, c exists."""
+    # Return True if a triangle with sides a, b, c exists.
     return a + b > c and b + c > a and c + a > b
 
 def triangle_angle(a, b, c):
-    """Return the angle (in degrees) opposite the side of length a."""
+    # Return the angle (in degrees) opposite the side of length a.
     return degrees(acos((b**2 + c**2 - a**2) / (2.0 * b * c)))
 
 def draw_triangle(a, b, c, border_clr, fill_clr):
-    """
-
-    Draw a triangle with sides of lengths a, b, c.
-    First the side c is drawn, then a and then b.
-    border_clr - color of a border; fill_clr - color of fill.
-    """
+    # Draw a triangle with sides of lengths a, b, c.
+    # First the side c is drawn, then a and then b.
+    # border_clr - color of a border; fill_clr - color of fill.
 
     corner_1 = triangle_angle(b, c, a)
     corner_2 = triangle_angle(c, a, b)
@@ -153,7 +150,6 @@ draw_circle(10,'Black','Black')
 
 
 # Evgeny
-
 # Car body
 goto(-330, -50)
 draw_rectangle(260, 10, 0, 'black', 'black')
