@@ -9,13 +9,12 @@ Karpenko Nikolay
 from turtle import *
 from math import *
 
-
+# Full-screen mode.
 screen = Screen()
 screen.setup(width=1.0, height=1.0)
-# Full-screen mode.
 
-speed(0)
 # Drawing speed (0 - the fastest).
+speed(0)
 
 
 """
