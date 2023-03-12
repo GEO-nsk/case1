@@ -99,7 +99,6 @@ Start of drawing
 """
 
 # Egor
-
 rt(270)
 # Truck
 pd()
