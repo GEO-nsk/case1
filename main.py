@@ -175,7 +175,7 @@ goto(-585, -20)
 lt(90)
 draw_rectangle(65, 45, 0, 'black', 'BlueViolet')
 
-# Windows.
+# Windows
 goto(-385, 80)
 lt(90)
 draw_triangle(30, sqrt(30**2 + 55**2), 55, 'black', 'CadetBlue1')
@@ -189,19 +189,19 @@ rt(180)
 draw_triangle(55, sqrt(55**2 + 40**2), 40, 'black', 'CadetBlue1')
 lt(180)
 
-# Roof.
+# Roof
 goto(-385, 77)
 draw_rectangle(160, 3, 0, 'black', 'BlueViolet')
 
-# Headlight.
+# Headlight
 goto(-640, 20)
 draw_circle(10, 'black', 'gold')
 
-# Taillight.
+# Taillight
 goto(-290, 7.5)
 draw_rectangle(15, 10, 0, 'black', 'red')
 
-# Right wheel.
+# Right wheel
 right(180)
 goto(-350, -65)
 draw_circle(33, 'black', 'gray50')
@@ -210,7 +210,7 @@ draw_circle(25, 'black', 'gray80')
 goto(-350, -38)
 draw_circle(6, 'black', 'black')
 
-# Left wheel.
+# Left wheel
 goto(-580, -65)
 draw_circle(33, 'black', 'gray50')
 goto(-580, -57)
