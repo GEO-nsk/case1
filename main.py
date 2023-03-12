@@ -48,6 +48,7 @@ def draw_circle(radius, border_color, fill_color):
     pu()
     goto(0,0)
 
+
 # Evgeny
 def triangle_exist(a, b, c):
     """Return True if a triangle with sides a, b, c exists."""
