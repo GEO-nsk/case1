@@ -51,17 +51,20 @@ def draw_circle(radius, border_color, fill_color):
 
 # Evgeny
 def triangle_exist(a, b, c):
-    # Return True if a triangle with sides a, b, c exists.
+    """Return True if a triangle with sides a, b, c exists."""
     return a + b > c and b + c > a and c + a > b
 
 def triangle_angle(a, b, c):
-    # Return the angle (in degrees) opposite the side of length a.
+    """Return the angle (in degrees) opposite the side of length a."""
     return degrees(acos((b**2 + c**2 - a**2) / (2.0 * b * c)))
 
 def draw_triangle(a, b, c, border_clr, fill_clr):
-    # Draw a triangle with sides of lengths a, b, c.
-    # First the side c is drawn, then a and then b.
-    # border_clr - color of a border; fill_clr - color of fill.
+    """
+
+    Draw a triangle with sides of lengths a, b, c.
+    First the side c is drawn, then a and then b.
+    border_clr - color of a border; fill_clr - color of fill.
+    """
 
     corner_1 = triangle_angle(b, c, a)
     corner_2 = triangle_angle(c, a, b)
@@ -84,7 +87,7 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
 
 
 """
-Start position of turtle
+Start position of turtle  
 """
 
 goto(0, 0)
@@ -92,7 +95,7 @@ pu()
 
 
 """
-Start of drawing
+Start of drawing  
 """
 
 # Egor
@@ -172,7 +175,7 @@ goto(-585, -20)
 lt(90)
 draw_rectangle(65, 45, 0, 'black', 'BlueViolet')
 
-# Windows
+# Windows.
 goto(-385, 80)
 lt(90)
 draw_triangle(30, sqrt(30**2 + 55**2), 55, 'black', 'CadetBlue1')
@@ -186,19 +189,19 @@ rt(180)
 draw_triangle(55, sqrt(55**2 + 40**2), 40, 'black', 'CadetBlue1')
 lt(180)
 
-# Roof
+# Roof.
 goto(-385, 77)
 draw_rectangle(160, 3, 0, 'black', 'BlueViolet')
 
-# Headlight
+# Headlight.
 goto(-640, 20)
 draw_circle(10, 'black', 'gold')
 
-# Taillight
+# Taillight.
 goto(-290, 7.5)
 draw_rectangle(15, 10, 0, 'black', 'red')
 
-# Right wheel
+# Right wheel.
 right(180)
 goto(-350, -65)
 draw_circle(33, 'black', 'gray50')
@@ -207,7 +210,7 @@ draw_circle(25, 'black', 'gray80')
 goto(-350, -38)
 draw_circle(6, 'black', 'black')
 
-# Left wheel
+# Left wheel.
 goto(-580, -65)
 draw_circle(33, 'black', 'gray50')
 goto(-580, -57)
