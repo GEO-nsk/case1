@@ -98,9 +98,26 @@ pu()
 Start of drawing  
 """
 
+# Nikolay
+
+# Sky
+bgcolor('CadetBlue1')
+
+# Road
+goto(-2000, -65)
+draw_rectangle(4000, 2000, 0, 'cornsilk4', 'cornsilk4')
+
+# Sun
+goto(800, 340)
+draw_circle(65, 'gold', 'gold')
+
+# Grass
+goto(-2000, 50)
+draw_rectangle(4000, 115, 0, 'green1', 'green1')
+
 # Egor
 rt(270)
-# Truck body
+# Truck
 pd()
 goto(250,0)
 lt(45)
@@ -110,10 +127,10 @@ draw_rectangle(75,75,0,'Black','Black')
 goto(-100,0)
 draw_rectangle(100,100,0,'Black','DarkRed')
 goto(-100,100)
-draw_rectangle(100,100,0,'Black','azure1')
+draw_rectangle(100,100,0,'Black','azure3')
 goto(-170,100)
 rt(90)
-draw_triangle(100, sqrt(100**2 + 70**2), 70,'Black','azure1')
+draw_triangle(100, sqrt(100**2 + 70**2), 70,'Black','azure3')
 lt(90)
 goto(-170,0)
 draw_rectangle(100,70,0,'black','DarkRed')
@@ -129,10 +146,9 @@ rt(90)
 draw_triangle(100,sqrt(100**2 + 100**2),100,'Black','gold2')
 lt(90)
 goto(-155,50)
-# light
+# wheels
 draw_circle(15,'Black','gold')
 goto(-90,35)
-# wheels
 draw_circle(50,'Black','gray50')
 goto(230,35)
 draw_circle(50,'Black','gray50')
@@ -218,9 +234,49 @@ draw_circle(25, 'black', 'gray80')
 goto(-580, -38)
 draw_circle(6, 'black', 'black')
 
-
 # Nikolay
+# Apple Tree
+goto(-800, 150)
+draw_rectangle(50, 150, 0, 'Brown', 'Brown')
+goto(-775, 140)
+draw_circle(100, 'green', 'green')
 
+# Apples
+goto(-840, 180)
+draw_circle(10, 'red', 'red')
+goto(-840, 230)
+draw_circle(10, 'red', 'red')
+goto(-735, 200)
+draw_circle(15, 'yellow', 'yellow')
+goto(-770, 190)
+draw_circle(10, 'red', 'red')
+goto(-790, 250)
+draw_circle(10, 'red', 'red')
+goto(-800, 145)
+draw_circle(15, 'yellow', 'yellow')
+goto(-840, 260)
+draw_circle(15, 'yellow', 'yellow')
+goto(-800, 290)
+draw_circle(10, 'red', 'red')
+goto(-840, 180)
+draw_circle(10, 'red', 'red')
+goto(-735, 290)
+draw_circle(15, 'yellow', 'yellow')
 
+# Christmas tree leaves
+goto(500, 200)
+draw_triangle(40, 40, 50, 'DarkGreen', 'DarkGreen')
+goto(487.5, 160)
+draw_triangle(60, 60, 75, 'DarkGreen', 'DarkGreen')
+goto(468.75, 100)
+draw_triangle(90, 90, 112.5, 'DarkGreen', 'DarkGreen')
+
+# Christmas tree trunk
+goto(520, 100)
+draw_rectangle(10, 50, 0, 'Brown', 'Brown')
 done()
+
+
+
+
 
