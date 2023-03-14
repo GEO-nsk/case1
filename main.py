@@ -84,7 +84,26 @@ def draw_triangle(a, b, c, border_clr, fill_clr):
 
 
 # Nikolay
+def draw_pentagon(length, angle, border_color, fill_color):
 
+    pd()
+    begin_fill()
+    color(border_color, fill_color)
+    rt(angle)
+    fd(length)
+    rt(72)
+    fd(length)
+    rt(72)
+    fd(length)
+    rt(72)
+    fd(length)
+    rt(72)
+    fd(length)
+    rt(72)
+
+    end_fill()
+    pu()
+    goto(0,0)
 
 """
 Start position of turtle  
@@ -105,7 +124,15 @@ bgcolor('CadetBlue1')
 
 # Road
 goto(-2000, -65)
-draw_rectangle(4000, 2000, 0, 'cornsilk4', 'cornsilk4')
+draw_rectangle(4000, 150, 0, 'cornsilk4', 'cornsilk4')
+
+# Markup
+goto(-2000, -135)
+draw_rectangle(4000, 10, 0, 'GhostWhite', 'GhostWhite')
+
+# River
+goto(-2000, -215)
+draw_rectangle(4000, 300, 0, 'DarkBlue', 'DarkBlue')
 
 # Sun
 goto(800, 340)
@@ -274,9 +301,11 @@ draw_triangle(90, 90, 112.5, 'DarkGreen', 'DarkGreen')
 # Christmas tree trunk
 goto(520, 100)
 draw_rectangle(10, 50, 0, 'Brown', 'Brown')
+
+# Bush
+goto(800, 100)
+draw_pentagon(70, 36, 'DarkGreen', 'DarkGreen')
 done()
-
-
 
 
 
