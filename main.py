@@ -1,7 +1,7 @@
 """
 Title: Hyper Truck and not only
 Group:
-Gagol Egor
+Gagol Egor - 50
 Tarlo Evgeny - 60
 Karpenko Nikolay
 """
