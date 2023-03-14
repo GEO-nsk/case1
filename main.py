@@ -23,6 +23,15 @@ Functions for drawing shapes.
 
 # Egor
 def draw_rectangle(width, length, angle, border_color, fill_color):
+    """ Draw a rectangle
+
+    :param width: width of rectangle
+    :param length: length of rectangle
+    :param angle: turns right rectangle
+    :param border_color: color of border
+    :param fill_color: color of fill
+    :return: rectangle with your options
+    """
     pd()
     begin_fill()
     color(border_color, fill_color)
@@ -40,6 +49,13 @@ def draw_rectangle(width, length, angle, border_color, fill_color):
     goto(0,0)
 
 def draw_circle(radius, border_color, fill_color):
+    """ Draw a circle.
+
+    :param radius: radius of circle
+    :param border_color: color of border
+    :param fill_color: color of fill
+    :return: circle with your options
+    """
     pd()
     begin_fill()
     color(border_color, fill_color)
@@ -117,7 +133,8 @@ draw_rectangle(4000, 115, 0, 'green1', 'green1')
 
 # Egor
 rt(270)
-# Truck
+
+# Truck body
 pd()
 goto(250,0)
 lt(45)
@@ -134,6 +151,10 @@ draw_triangle(100, sqrt(100**2 + 70**2), 70,'Black','azure3')
 lt(90)
 goto(-170,0)
 draw_rectangle(100,70,0,'black','DarkRed')
+goto(-30,60)
+draw_rectangle(5,15,0,'black','black')
+
+# Truck ladle
 goto(20,75)
 draw_rectangle(100,200,0,'Black','Gold2')
 goto(0,-30)
@@ -146,6 +167,7 @@ rt(90)
 draw_triangle(100,sqrt(100**2 + 100**2),100,'Black','gold2')
 lt(90)
 goto(-155,50)
+
 # wheels
 draw_circle(15,'Black','gold')
 goto(-90,35)
