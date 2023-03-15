@@ -3,7 +3,7 @@ Title: Hyper Truck and not only
 Group:
 Gagol Egor - 50
 Tarlo Evgeny - 60
-Karpenko Nikolay
+Karpenko Nikolay - 50
 """
 
 from turtle import *
